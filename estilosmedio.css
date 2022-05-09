@@ -1,0 +1,77 @@
+body {
+	
+  background: url("https://cdn.discordapp.com/attachments/930115124692418604/972984842939686992/Fondo_1.png");
+  background-size: cover;
+  background-size: 99rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+
+}
+
+#contenedor {
+	display: block;
+  	justify-content: center;
+	position: absolute;
+  	top: 15%;
+  	left: 27%;
+}
+
+h2 {
+	display: block;
+	font-size: 2rem;
+	padding-left: 90px;
+	
+}
+
+#opciones{
+  display : flex;
+  flex-direction : row;
+  
+
+}
+
+#izquierda {
+  
+  display: block;
+  text-align:justify;
+  height: 200px;
+  width: 255px;
+
+}
+
+#derecha {
+
+  display: block;
+  text-align:justify
+  height: 200px;
+  width: 255px;
+  
+}
+
+#centre {
+  
+  width: 200px;
+  text-align: center;
+  border-style: solid;
+font-size: x-large;
+line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+#s {
+  
+  width: 200px;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  background-color: red;
+  color: white;
+  font-size: x-large;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Banco ATM | Aaron</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilosmedio.css">
+	<link rel="icon" href="https://cdn.discordapp.com/attachments/930115124692418604/973022379188060170/unknown.png" type="image/png" /> 
+</head>
+<body>
+
+	<div id="contenedor">
+			<h2>Seleccionar Operacion</h2>
+			<div id="opciones" >
+
+			<div id="izquierda">
+			<div id="centre"  onclick="retiro();" >Retiros</div>
+			<br>
+			<br>
+			<br>
+			<div id="s" onclick="history.go(-1);" >Salir</div>
+			</div>
+
+
+
+			<div id="derecha">
+			<div id="centre" onclick="deposito();">Depositos</div>
+			<br>
+			<br>
+			<br>
+			<div id="centre" onclick="consulta();" >Consultas</div>
+			</div>
+
+
+
+			</div>
+
+
+	</div>
+
+	<script type="text/javascript">
+		setTimeout( function() { window.location.href = "index.html"; }, 300000 );
+
+	</script>
+	<script type="text/javascript" src="codigo.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+body {
+	
+  background: url("https://cdn.discordapp.com/attachments/930115124692418604/972984842939686992/Fondo_1.png");
+  background-size: cover;
+  background-size: 99rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+
+}
+
+#contenedor {
+	display: block;
+  	justify-content: center;
+
+	position: absolute;
+  	top: 20%;
+  	left: 30%;
+}
+
+h1 {
+	display: block;
+	font-size: 3rem;
+	padding-left: 70px;
+	
+}
+
+input {
+    height: 50px;
+    width: 450px;
+    border: 3px solid;
+}
